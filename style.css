@@ -1,18 +1,57 @@
+#firstparagraph {
+  background-color: blue;
+  color: white;
+}
+
+#secondparagraph {
+  font-family: cursive;
+}
+
+#fourthparagraph {
+  float: right;
+}
 
 .box {
   width: 100px;
   height: 100px;
   display: inline-block;
+ 
 }
 
 #one {
   background-color: red;
 }
+#one:hover {
+  background-color: blue;
+}
 
 #two {
   background-color: blue;
 }
-
+#two:hover {
+  border-radius: 50%;
+}
 #three {
   background-color: green;
+}
+#three:hover {
+  background: url("http://www.chickenpimpin.com/dancing-cartoon-chicken.jpg");
+}
+body {
+  background-image: url(https://pbs.twimg.com/media/CdCLAAsWoAEEP16.jpg)
+}
+.building {
+  width:50%;
+  margin:auto;
+  display: block;
+}
+.allevennumberedlines { 
+color:#891464;
+}
+
+#hoverline:hover {
+  color: orange;
+}
+p {
+font-size: 20px
 }
